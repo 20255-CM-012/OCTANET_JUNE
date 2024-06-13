@@ -1,0 +1,80 @@
+    body, html
+    {
+        height: 100%;
+    }
+    .navbar a:hover,
+    .navbar .active,
+    .navbar .active:focus,
+    .navbar li:hover>a
+    {
+        color: #ffb727;
+        transition: 0.3s;
+    }
+    #a1
+    {
+        color: #ffb727;   
+    }
+    #c1
+    {
+        width: 79%; 
+        height: 30%;
+    }
+    .h11
+    {
+        position: absolute;
+        top: 35%;
+        left: 33%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .p1
+    {
+        font-size: 20px;
+        font-family: monospace;
+        position: absolute;
+        top: 55%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+            text-align: center;
+    }
+    .col-md-12
+    {
+        position: relative;
+        text-align: center;
+        font-size: 15px;
+        font-family: monospace;
+    }
+    .centered {
+        position: absolute;
+        top: 40%;
+        left: 73%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+    .col-md-6
+    {
+        position: relative;
+    }
+    .card
+    {
+        text-align: center;
+    }
+    #about,
+    #collections,
+    #jewellery
+    {
+        margin-top: 100px;
+    }
+    #footer
+    {
+        text-align: center;
+        background-color: #edeee8;
+        padding: 30px;
+        font-size: 17px;
+    }
+    #footer > .row > .col-md-3> ul > li > a,
+    #footer > .row > .col-md-6> ul > li > a
+    {
+        text-decoration: none;
+        color: black
+    }
